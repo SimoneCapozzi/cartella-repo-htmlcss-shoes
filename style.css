@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+}
+
+.contenitore{
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  position: relative;
+}
+
+
+
+.contenuto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+ #rosso{
+  background-color: red;
+ } 
+
+ #verde{
+  background-color: green;
+ }
+
+ #giallo{
+  background-color: yellow;
+ }
+
+ h1{
+   color: yellow;
+   font-size: 75px;
+ }
+
+ .h1-verde{
+   color: green;
+   
+ }
+
+
+
